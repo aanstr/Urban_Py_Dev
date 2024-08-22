@@ -14,4 +14,4 @@ def result(n):
     return get_result
 
 
-print('Пароль: ',result(n))
+print('Пароль: ', result(n))
