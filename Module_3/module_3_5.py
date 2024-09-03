@@ -2,9 +2,9 @@ def get_multiplied_digits(number):
     str_number = str(number)
     first = int(str_number[0])
     while len(str_number) > 1:
-        result = first * get_multiplied_digits(int(str_number[1:]))
-        if result > 0:
-            return result
+        result_inner = first * get_multiplied_digits(int(str_number[1:]))
+        if result_inner > 0:
+            return result_inner
         else:
             return first
     else:
