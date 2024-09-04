@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81614274-1bab-4cd4-830e-25d1d210cdf1" name="Changes" comment="3_hard">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Built_in_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func_practice1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/calc.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Urban_Py_Dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Urban_Py_Dev.iml" afterDir="false" />
+    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="3_hard">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore/Built_in_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore/calc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore/func_practice1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,22 +19,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "aanstr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aanstr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aanstr/Urban_Py_Dev.git",
-    "accountId": "49248428-a58e-4858-83d6-bb13e3356f9f"
-  }
-}]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2kqPZ03TGiFE0O2Yz5UR3Wiqc7s" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aanstr/Urban_Py_Dev.git&quot;,
+    &quot;accountId&quot;: &quot;49248428-a58e-4858-83d6-bb13e3356f9f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2lbYbpOHlC6B3i4h4gcdYmiFbXI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -46,25 +44,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.Py_1_01.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.module_1_6.executor": "Run",
-    "Python.module_1_7.executor": "Run",
-    "Python.module_3_2.executor": "Run",
-    "Python.module_3_5.executor": "Run",
+    "Python.module1.executor": "Run",
+    "Python.module2.executor": "Run",
     "Python.module_3_hard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/PycharmProjects/Urban_Py_Dev",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Urban_Py_Dev\gitignore" />
       <recent name="D:\PycharmProjects\Urban_Py_Dev" />
-      <recent name="D:\PycharmProjects\Urban_Py_Dev\output" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -77,52 +68,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81614274-1bab-4cd4-830e-25d1d210cdf1" name="Changes" comment="" />
-      <created>1724008184775</created>
+      <changelist id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="3_hard" />
+      <created>1725450318141</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724008184775</updated>
+      <updated>1725450318141</updated>
     </task>
-    <task id="LOCAL-00001" summary="3_hard">
-      <option name="closed" value="true" />
-      <created>1725443742286</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1725443742286</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3_hard" />
     <option name="LAST_COMMIT_MESSAGE" value="3_hard" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="result" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
