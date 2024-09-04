@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="3_hard">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/Module_4/fake_math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_4/module_4_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_4/true_math.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore/Built_in_func.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore/calc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore/func_practice1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +53,8 @@
     "Python.module1.executor": "Run",
     "Python.module2.executor": "Run",
     "Python.module_3_hard.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.true_math.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"
@@ -74,10 +82,28 @@
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
     </task>
+    <task id="LOCAL-00001" summary="3_hard">
+      <option name="closed" value="true" />
+      <created>1725455391346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725455391346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1725455927001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725455927001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3_hard" />
-    <option name="LAST_COMMIT_MESSAGE" value="3_hard" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>
