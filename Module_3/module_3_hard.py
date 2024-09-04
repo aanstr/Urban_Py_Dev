@@ -4,18 +4,16 @@ sum_ = 0
 def calculate_structure_sum(args):
     global sum_
     for i in args:
-        result_ = 0
         if isinstance(i, int) or isinstance(i, float):
-            result_ += i
+            sum_ += i
         elif isinstance(i, str):
-            result_ += len(i)
+            sum_ += len(i)
         elif isinstance(i, dict):
             for j in i:
-                result_ += (i.get(j))
-                result_ += len(j)
+                sum_ += (i.get(j))
+                sum_ += len(j)
         else:
             calculate_structure_sum(i)
-        sum_ += result_
     return sum_
 
 
