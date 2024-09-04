@@ -1,7 +1,7 @@
 sum_ = 0
 
 
-def calculate_structure_sum(args):
+def calculate_structure_sum(*args):
     global sum_
     for i in args:
         if isinstance(i, int) or isinstance(i, float):
@@ -13,7 +13,7 @@ def calculate_structure_sum(args):
                 sum_ += (i.get(j))
                 sum_ += len(j)
         else:
-            calculate_structure_sum(i)
+            calculate_structure_sum(*i)
     return sum_
 
 
