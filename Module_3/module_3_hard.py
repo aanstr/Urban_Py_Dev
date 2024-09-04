@@ -2,7 +2,6 @@ sum_ = 0
 
 
 def calculate_structure_sum(args):
-    global count
     global sum_
     for i in args:
         result_ = 0
