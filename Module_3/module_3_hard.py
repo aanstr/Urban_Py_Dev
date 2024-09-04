@@ -4,8 +4,7 @@ sum_ = 0
 def calculate_structure_sum(args):
     global count
     global sum_
-    array_ = args
-    for i in array_:
+    for i in args:
         result_ = 0
         if isinstance(i, int) or isinstance(i, float):
             result_ += i
