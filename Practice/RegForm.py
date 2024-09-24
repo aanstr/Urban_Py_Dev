@@ -28,8 +28,10 @@ if __name__ == '__main__':
                 if password == database.data[login]:
                     print(f'Вход выполнен под пользователем {login}')
                     break
-                else: print('Неверный пароль')
-            else: print('Пользователь не найден')
+                else:
+                    print('Неверный пароль')
+            else:
+                print('Пользователь не найден')
         if choice == 2:
             user = User(input("Введите логин: "), password := input("Введите пароль: "),
                         password2 := input("Повторите пароль: "))
