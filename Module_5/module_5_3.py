@@ -33,18 +33,18 @@ class House:
     def __ne__(self, other):
         return not self.__eq__(other)
 
-    def __add__(self, value):
-        if isinstance(value, int):
-            self.number_of_floors += value
-        elif isinstance(value, House):
-            self.number_of_floors += value.number_of_floors
+    def __add__(self, other):
+        if isinstance(other, int):
+            self.number_of_floors += other
+        elif isinstance(other, House):
+            self.number_of_floors += other.number_of_floors
         return self
 
-    def __radd__(self, value):
-        return self.__add__(value)
+    def __radd__(self, other):
+        return self.__add__(other)
 
-    def __iadd__(self, value: int):
-        return self.__add__(value)
+    def __iadd__(self, other: int):
+        return self.__add__(other)
 
     def go_to(self, new_floor):
         for i in range(new_floor):
