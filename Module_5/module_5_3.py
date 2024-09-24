@@ -32,12 +32,10 @@ class House:
         return self
 
     def __radd__(self, value):
-        self.number_of_floors += value
-        return self
+        return self + value
 
     def __iadd__(self, value):
-        self.number_of_floors += value
-        return self
+        return self + value
 
     def go_to(self, new_floor):
         for i in range(new_floor):
