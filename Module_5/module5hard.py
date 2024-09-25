@@ -12,6 +12,9 @@ class User:
         self.password = sha256(password.encode()).hexdigest()  # hash
         self.age = age
 
+    def __str__(self):
+        return self.nickname
+
 
 class Video:
     """
