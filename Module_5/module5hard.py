@@ -2,6 +2,34 @@ from time import sleep
 from hashlib import sha256
 
 
+class User:
+    """
+    Класс пользователя, содержащий атрибуты: логин, возраст, пароль в хешированном виде
+    """
+
+    def __init__(self, nickname, password, age):
+        self.nickname = nickname
+        self.password = sha256(password.encode()).hexdigest()  # hash
+        self.age = age
+
+
+class Video:
+    """
+    Класс видео, содержащий атрибуты: заголовок, продолжительность,
+    секунда остановки и триггер ограничения по возрасту
+    """
+
+    def __init__(self, title, duration, time_now=0, adult_mode=False):
+        self.title = title
+        self.duration = duration
+        self.time_now = time_now  # для возможности досмотреть начатое видео(не реализовано)
+        self.adult_mode = adult_mode
+
+
+users = []
+videos = []
+
+
 class UrTube:
     """
     Класс видео, содержащий атрибуты: список пользователей,
@@ -10,35 +38,10 @@ class UrTube:
     просмотр видео
     """
 
-    class User:
-        """
-        Класс пользователя, содержащий атрибуты: логин, возраст, пароль в хешированном виде
-        """
-
-        def __init__(self, nickname, age, password):
-            self.nickname = nickname
-            self.age = age
-            self.password = sha256(password.encode()).hexdigest()  # hash
-
-    class Video:
-        """
-        Класс видео, содержащий атрибуты: заголовок, продолжительность,
-        секунда остановки и триггер ограничения по возрасту
-        """
-
-        def __init__(self, title, duration, time_now=0, adult_mode=False):
-            self.title = title
-            self.duration = duration
-            self.time_now = time_now  # для возможности досмотреть начатое видео
-            self.adult_mode = adult_mode
-
-    users = {}
-    videos = ()
-
-    def __init__(self, users, videos, current_user=None):
+    def __init__(self):
         self.users = users
-        self.duration = videos
-        self.current_user = current_user
+        self.videos = videos
+        self.current_user = None
 
     def log_in(self, nickname, password):
         hashed_pwd = sha256(password.encode()).hexdigest()
@@ -47,6 +50,7 @@ class UrTube:
                 self.current_user = user
                 print(f'Добро пожаловать, {nickname}')  # тест на логин
                 return
+        print("Неверные учетные данные")
 
     def register(self, nickname, password, age):
         if nickname in self.users:
@@ -58,6 +62,35 @@ class UrTube:
 
     def logout(self):
         self.current_user = None
+
+    def add(self, *videos):
+        for video in videos:
+            if video.title not in self.videos:
+                self.videos.append(video)
+
+    def get_videos(self, keyword):
+        for video in self.videos:
+            if keyword.lower() in video.title.lower():
+                return video.title
+
+    def watch_video(self, title):
+        if self.current_user is None:
+            print("Войдите в аккаунт, чтобы смотреть видео")
+            return
+        for video in self.videos:
+            if video.title == title:
+                if video.adult_mode and self.current_user.age < 18:
+                    print("Вам нет 18 лет, пожалуйста покиньте страницу")
+                    return
+                while video.time_now < video.duration:
+                    print(video.time_now)
+                    sleep(1)
+                    video.time_now += 1
+                print("Конец видео")
+                video.time_now = 0
+                return
+
+        print("Видео не найдено")
 
 
 # Код для проверки:
