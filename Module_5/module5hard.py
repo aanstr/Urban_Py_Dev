@@ -26,9 +26,6 @@ class Video:
         self.adult_mode = adult_mode
 
 
-users = []
-videos = []
-
 
 class UrTube:
     """
@@ -39,8 +36,8 @@ class UrTube:
     """
 
     def __init__(self):
-        self.users = users
-        self.videos = videos
+        self.users = []
+        self.videos = []
         self.current_user = None
 
     def log_in(self, nickname, password):
@@ -48,7 +45,6 @@ class UrTube:
         for user in self.users:
             if user.nickname == nickname and user.password == hashed_pwd:
                 self.current_user = user
-                print(f'Добро пожаловать, {nickname}')  # тест на логин
                 return
         print("Неверные учетные данные")
 
@@ -56,7 +52,7 @@ class UrTube:
         if nickname in self.users:
             print(f"Пользователь {nickname} уже существует")
         else:
-            user = (nickname, password, age)
+            user = User(nickname, password, age)
             self.users.append(user)
             self.current_user = user
 
