@@ -16,11 +16,11 @@ class Vehicle:
     def get_color(self):
         return f'Цвет: {self.__color}'
 
-    def set_color(self, color):
-        if color.lower() in self.__COLOR_VARIANTS:
-            self.__color = color
+    def set_color(self, new_color):
+        if new_color.lower() in self.__COLOR_VARIANTS:
+            self.__color = new_color
         else:
-            print(f'Нельзя сменить цвет на {color}')
+            print(f'Нельзя сменить цвет на {new_color}')
 
     def print_info(self):
         print(self.get_model())
