@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/Practice/Pong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Urban_Py_Dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Urban_Py_Dev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_5/module5hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_5/module5hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,49 +49,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.08_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NeuroCode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NeuroCode2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RegForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fake_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module5hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.true_math.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Practice&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.08_practice.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.NeuroCode.executor": "Run",
+    "Python.NeuroCode2.executor": "Run",
+    "Python.PetyaDefence.executor": "Run",
+    "Python.Pong.executor": "Run",
+    "Python.RegForm.executor": "Run",
+    "Python.Zubkov_5_hard.executor": "Run",
+    "Python.fake_math.executor": "Run",
+    "Python.module1.executor": "Run",
+    "Python.module2.executor": "Run",
+    "Python.module5hard.executor": "Run",
+    "Python.module6hard-2.executor": "Run",
+    "Python.module6hard.executor": "Run",
+    "Python.module_1_1.executor": "Run",
+    "Python.module_3_hard.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_5_1.executor": "Run",
+    "Python.module_5_2.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_6_1.executor": "Run",
+    "Python.module_6_2.executor": "Run",
+    "Python.module_6_3.executor": "Run",
+    "Python.true_math.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_6",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_6" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_5" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_4" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\.idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
       <recent name="D:\PycharmProjects\Urban_Py_Dev\gitignore" />
-      <recent name="D:\PycharmProjects\Urban_Py_Dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.module5hard">
+  <component name="RunManager">
     <configuration name="module5hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Urban_Py_Dev" />
       <option name="ENV_FILES" value="" />
@@ -309,7 +319,63 @@
       <option name="project" value="LOCAL" />
       <updated>1727285058169</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727288382673</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727288382673</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727859100887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727859100887</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727864999953</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727864999953</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727865325251</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727865325251</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727868117692</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1727868117692</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727868267316</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1727868267316</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727872291615</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727872291615</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
