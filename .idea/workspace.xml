@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Module_6/module6hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_6/module6hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_6/module6hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728409142494</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728418485441</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728418485441</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -360,5 +368,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="_Triangle__is_triangle" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
