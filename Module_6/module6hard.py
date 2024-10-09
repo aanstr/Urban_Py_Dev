@@ -14,7 +14,8 @@ class Figure:
     def get_color(self):
         return self.__color
 
-    def __is_valid_color(self, r, g, b):
+    @staticmethod
+    def __is_valid_color(r, g, b):
         __bool = True
         for i in (r, g, b):
             if not 0 <= i <= 255 and isinstance(i, int):
@@ -59,25 +60,27 @@ class Triangle(Figure):
     sides_count = 3
 
     def __init__(self, color, *sides):
-        super().__init__(color, list(self.__init_sides(sides)))
+        if self.__is_valid_sides(sides):
+            super().__init__(color, *sides)
 
     def __init_sides(self, *sides):
-        if self.__is_valid_sides():
+        if self.__is_valid_sides(sides):
             return sides
         else:
             return sides[0] * self.sides_count
 
-    def __is_valid_sides(self, *new_sides):
+    def __is_valid_sides(self, sides):
         __is_triangle = False
-        for x, y, z in new_sides:
-            print(f'стороны треугольника: {x, y, z}')
-            if x < y + z and y < x + z and z < x + y:
-                __is_triangle = True
+        x, y, z = sides
+        if x < y + z and y < x + z and z < x + y:
+            __is_triangle = True
         return __is_triangle
 
     def set_sides(self, *new_sides):
-        if self.__is_valid_sides():
+        if self.__is_valid_sides(new_sides):
             super().set_sides(*new_sides)
+        else:
+            print(f'{self} не изменен')
 
     def get_square(self):
         a, b, c = self.get_sides()
@@ -98,28 +101,29 @@ class Cube(Figure):
 circle1 = Circle((200, 200, 100), 10)  # (Цвет, стороны)
 cube1 = Cube((222, 35, 130), 6)
 triangle1 = Triangle((251, 33, 133), 5, 3, 4)
+print(f'Треугольник, стороны: {triangle1.get_sides()}')
 
 # Проверка на изменение цветов:
 circle1.set_color(55, 66, 77)  # Изменится
-print(f'Круг, цвет:{circle1.get_color()}')
+print(f'Круг, цвет: {circle1.get_color()}')
 cube1.set_color(300, 70, 15)  # Не изменится
-print(f'Куб, цвет:{cube1.get_color()}')
-triangle1.set_color(255, 255, 255)
-print(f'Треугольник, цвет:{triangle1.get_color()}')
+print(f'Куб, цвет: {cube1.get_color()}')
+triangle1.set_color(255, 255, 255)  # Изменится
+print(f'Треугольник, цвет: {triangle1.get_color()}')
 
 # Проверка на изменение сторон:
 cube1.set_sides(5, 3, 12, 4, 5)  # Не изменится
-print(f'Куб, стороны:{cube1.get_sides()}')
+print(f'Куб, стороны: {cube1.get_sides()}')
 circle1.set_sides(15)  # Изменится
 print(f'Круг, длина окружности:{circle1.get_sides()}')
-triangle1.set_sides(5, 5, 12)  # Невозможный треугольник
-print(f'Треугольник, стороны:{triangle1.get_sides()}')
+triangle1.set_sides(5, 5, 12)  # Невозможный треугольник. Не изменится
+print(f'Треугольник, изменение сторон: {triangle1.get_sides()}')
 
 # Проверка периметра (круга), это и есть длина:
-print(f'Круг, периметр:{len(circle1)}')
+print(f'Круг, периметр: {len(circle1)}')
 
 # Проверка объёма (куба):
-print(f'Куб, объем:{cube1.get_volume()}')
+print(f'Куб, объем: {cube1.get_volume()}')
 
 # Проверка площади треугольника
-print(f'Треугольник, площадь{triangle1.get_square()}')
+print(f'Треугольник, площадь: {triangle1.get_square()}')
