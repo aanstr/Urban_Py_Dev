@@ -12,19 +12,17 @@ class Shop:
     __file_name = 'products.txt'
 
     def get_products(self):
-        file = open(self.__file_name, 'r')
-        text = file.read()
-        file.close()
+        with open(self.__file_name) as file:
+            text = file.read()
         return text
 
     def add(self, *products):
-        file = open(self.__file_name, 'a')  # open file
-        for pos in products:
-            if pos.name in self.get_products():
-                print(f'Продукт {pos.name} уже есть в магазине')
-            else:
-                file.write(f'{pos},\n')  # add position
-        file.close()
+        with open(self.__file_name, 'a') as file:  # open file
+            for pos in products:
+                if pos.name in self.get_products():
+                    print(f'Продукт {pos.name} уже есть в магазине')
+                else:
+                    file.write(f'{pos},\n')  # add position
 
 
 s1 = Shop()
