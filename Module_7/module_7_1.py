@@ -9,7 +9,8 @@ class Product:
 
 
 class Shop:
-    __file_name = 'products.txt'
+    def __init__(self):
+        self.__file_name = 'products.txt'
 
     def get_products(self):
         with open(self.__file_name) as file:
