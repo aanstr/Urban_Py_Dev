@@ -4,8 +4,8 @@ score_1 = 44
 score_2 = 42
 team1_time = 1552.512
 team2_time = 2153.31451
-tasks_total = 82
-time_avg = 45.2
+tasks_total = score_1 + score_2
+time_avg = team1_time + team2_time / 2
 # challenge_result = 'Победа команды Волшебники данных!'
 msg = []
 
