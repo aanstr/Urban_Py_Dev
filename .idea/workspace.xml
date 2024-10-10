@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Pong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/RegForm.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_6",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/.venv",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
@@ -365,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728476546749</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728483002723</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728483002723</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
