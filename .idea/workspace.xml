@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/Practice/Pong.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/RegForm.py" beforeDir="false" />
-    </list>
+    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +21,18 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;aanstr&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "MERGED",
+      "assignee": "aanstr"
+    }
+  ],
+  "lastFilter": {
+    "state": "MERGED",
+    "assignee": "aanstr"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/aanstr/Urban_Py_Dev.git&quot;,
@@ -50,14 +53,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.03_file_seek.executor": "Run",
+    "Python.07_practice.executor": "Run",
     "Python.08_practice.executor": "Run",
     "Python.1.executor": "Run",
+    "Python.Explorer.executor": "Run",
     "Python.Module_5.executor": "Run",
     "Python.NeuroCode.executor": "Run",
     "Python.NeuroCode2.executor": "Run",
+    "Python.Neuro_7_3(2).executor": "Run",
+    "Python.Neuro_7_3(3).executor": "Run",
+    "Python.Neuro_7_3.executor": "Run",
+    "Python.OS_files.executor": "Run",
     "Python.PetyaDefence.executor": "Run",
     "Python.Pong.executor": "Run",
     "Python.RegForm.executor": "Run",
+    "Python.String_format.executor": "Run",
     "Python.Zubkov_5_hard.executor": "Run",
     "Python.fake_math.executor": "Run",
     "Python.module1.executor": "Run",
@@ -76,30 +87,35 @@
     "Python.module_6_1.executor": "Run",
     "Python.module_6_2.executor": "Run",
     "Python.module_6_3.executor": "Run",
+    "Python.module_7_1.executor": "Run",
+    "Python.module_7_2.executor": "Run",
+    "Python.module_7_3.executor": "Run",
+    "Python.module_7_4.executor": "Run",
+    "Python.module_7_5.executor": "Run",
     "Python.sprite.executor": "Run",
     "Python.true_math.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/.venv",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Code_base",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_6" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_5" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
-      <recent name="D:\PycharmProjects\Urban_Py_Dev\gitignore" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -374,14 +390,127 @@
       <option name="project" value="LOCAL" />
       <updated>1728483002723</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728502093817</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728502093817</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728506228802</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728506228802</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728547095572</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728547095573</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728548909411</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1728548909411</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728549071031</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1728549071031</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728549138467</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1728549138467</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728554153236</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1728554153236</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728554314208</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1728554314208</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728569787415</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1728569787415</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728572874919</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1728572874919</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728573037880</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1728573037880</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728586011025</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1728586011025</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1728586120915</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728586120915</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt">
+      <option name="closed" value="true" />
+      <created>1728586178122</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1728586178122</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3_hard" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -392,10 +521,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="_Triangle__is_triangle" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
