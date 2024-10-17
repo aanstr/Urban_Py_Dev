@@ -27,14 +27,10 @@ class IncorrectVinNumber(Exception):
     def __init__(self, message):
         self.message = message
 
-    pass
-
 
 class IncorrectCarNumbers(Exception):
     def __init__(self, message):
         self.message = message
-
-    pass
 
 
 try:
