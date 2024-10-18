@@ -5,7 +5,7 @@ def apply_all_func(int_list, *functions):
             if not isinstance(i, int or float):
                 raise TypeError
         except TypeError:
-            print("Следует передать список чисел")
+            print(f'Следует передать список чисел\n(Передано: {int_list})')
     try:
         for func in functions:
             result.update({func.__name__: func(int_list)})
