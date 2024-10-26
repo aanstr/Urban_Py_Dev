@@ -4,7 +4,7 @@ def all_variants(text):
         for i in range(len(text) + 1):
             result = text[i:i + l]
             if len(result) == l:
-                yield text[i:i + l]
+                yield result
         l += 1
 
 
