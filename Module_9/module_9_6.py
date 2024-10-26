@@ -1,11 +1,11 @@
 def all_variants(text):
-    l = 1
-    while l < len(text) + 1:
-        for i in range(len(text) + 1):
-            result = text[i:i + l]
-            if len(result) == l:
+    len_ = 1
+    while len_ < len(text) + 1:
+        for start in range(len(text) + 1):
+            result = text[start:start + len_]
+            if len(result) == len_:
                 yield result
-        l += 1
+        len_ += 1
 
 
 a = all_variants("abc")
