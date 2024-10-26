@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt">
-      <change afterPath="$PROJECT_DIR$/Module_9/module_9_5.py" afterDir="false" />
+    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/Module_9/module_9_7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +67,14 @@
     "Python.Neuro_7_3(2).executor": "Run",
     "Python.Neuro_7_3(3).executor": "Run",
     "Python.Neuro_7_3.executor": "Run",
+    "Python.Neuro_9_7.executor": "Run",
     "Python.OS_files.executor": "Run",
     "Python.PetyaDefence.executor": "Run",
     "Python.Pong.executor": "Run",
     "Python.RegForm.executor": "Run",
     "Python.String_format.executor": "Run",
     "Python.Zubkov_5_hard.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
     "Python.fake_math.executor": "Run",
     "Python.module1.executor": "Run",
     "Python.module2.executor": "Run",
@@ -95,28 +97,31 @@
     "Python.module_7_3.executor": "Run",
     "Python.module_7_4.executor": "Run",
     "Python.module_7_5.executor": "Run",
+    "Python.module_9_2.executor": "Run",
     "Python.module_9_5.executor": "Run",
+    "Python.module_9_6.executor": "Run",
+    "Python.module_9_7.executor": "Run",
     "Python.sprite.executor": "Run",
     "Python.true_math.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Code_base",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_9",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_9" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_6" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sys_adm\PycharmProjects\" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
+      <recent name="C:\Users\sys_adm\PycharmProjects\" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
@@ -137,14 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00001" summary="3_hard">
-      <option name="closed" value="true" />
-      <created>1725455391346</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1725455391346</updated>
     </task>
     <task id="LOCAL-00002" summary="Changes">
       <option name="closed" value="true" />
@@ -506,15 +503,47 @@
       <option name="project" value="LOCAL" />
       <updated>1728586178122</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1729947515283</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1729947515283</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1729957908017</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1729957908017</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1729958338441</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1729958338441</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1729958633057</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1729958633057</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3_hard" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <MESSAGE value="Changes" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
