@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Module_9/module_9_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_10/module_10_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,10 @@
     "Python.module5hard.executor": "Run",
     "Python.module6hard-2.executor": "Run",
     "Python.module6hard.executor": "Run",
+    "Python.module_10_1(1).executor": "Run",
+    "Python.module_10_1.executor": "Run",
+    "Python.module_10_2.executor": "Run",
+    "Python.module_10_3.executor": "Run",
     "Python.module_1_1.executor": "Run",
     "Python.module_3_hard.executor": "Run",
     "Python.module_4_1.executor": "Run",
@@ -107,17 +111,17 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_9",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_10",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_10" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_9" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_6" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
@@ -142,30 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1725455927001</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1725455927001</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1726935786698</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726935786698</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727177845072</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1727177845072</updated>
     </task>
     <task id="LOCAL-00005" summary="Changes">
       <option name="closed" value="true" />
@@ -535,7 +515,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729958633057</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1729962002577</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1729962002577</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1730640002880</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1730640002880</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1730642126108</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1730642126108</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
