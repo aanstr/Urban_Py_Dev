@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Module_10/module_10_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_10/module_10_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "Python.Module_5.executor": "Run",
     "Python.NeuroCode.executor": "Run",
     "Python.NeuroCode2.executor": "Run",
+    "Python.Neuro_10_4.executor": "Run",
     "Python.Neuro_7_3(2).executor": "Run",
     "Python.Neuro_7_3(3).executor": "Run",
     "Python.Neuro_7_3.executor": "Run",
@@ -85,6 +86,7 @@
     "Python.module_10_1.executor": "Run",
     "Python.module_10_2.executor": "Run",
     "Python.module_10_3.executor": "Run",
+    "Python.module_10_4.executor": "Run",
     "Python.module_1_1.executor": "Run",
     "Python.module_3_hard.executor": "Run",
     "Python.module_4_1.executor": "Run",
@@ -146,14 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727179136624</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727179136624</updated>
     </task>
     <task id="LOCAL-00006" summary="Changes">
       <option name="closed" value="true" />
@@ -539,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730642126108</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1730648518023</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1730648518023</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
