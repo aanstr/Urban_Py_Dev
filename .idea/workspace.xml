@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Module_10/module_10_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_11/module_11_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_11/module_11_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Calc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Pong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/RegForm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/bar.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,9 @@
     "Python.07_practice.executor": "Run",
     "Python.08_practice.executor": "Run",
     "Python.1.executor": "Run",
+    "Python.Calc.executor": "Run",
+    "Python.Calc2.executor": "Run",
+    "Python.Calc3.executor": "Run",
     "Python.Explorer.executor": "Run",
     "Python.Module_5.executor": "Run",
     "Python.NeuroCode.executor": "Run",
@@ -88,6 +97,7 @@
     "Python.module_10_3.executor": "Run",
     "Python.module_10_4.executor": "Run",
     "Python.module_10_5.executor": "Run",
+    "Python.module_11_1.executor": "Run",
     "Python.module_1_1.executor": "Run",
     "Python.module_3_hard.executor": "Run",
     "Python.module_4_1.executor": "Run",
@@ -114,25 +124,100 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_10",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_10" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_9" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_6" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects" />
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_11" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
       <recent name="C:\Users\sys_adm\PycharmProjects\" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.Calc">
+    <configuration name="Calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Py_Dev" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Calc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Calc2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Py_Dev" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Calc2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Calc3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Py_Dev" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Calc3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Calc3" />
+        <item itemvalue="Python.Calc2" />
+        <item itemvalue="Python.Calc" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -149,22 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727186705952</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727186705952</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727187391717</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1727187391717</updated>
     </task>
     <task id="LOCAL-00009" summary="Changes">
       <option name="closed" value="true" />
@@ -542,7 +611,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730815324776</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1732038977597</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732038977597</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1732177296455</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1732177296455</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
