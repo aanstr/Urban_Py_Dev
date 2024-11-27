@@ -35,5 +35,6 @@ class Tournament:
                     finishers[place] = participant
                     place += 1
                     self.participants.remove(participant)
+            self.full_distance = 0
 
         return finishers

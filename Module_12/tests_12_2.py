@@ -4,8 +4,9 @@ import runner_and_tournament as run
 
 class TournamentTest(unittest.TestCase):
 
-    def setUpClass(self):
-        self.all_results = {}
+    @classmethod
+    def setUpClass(cls):
+        cls.all_results = {}
 
     def setUp(self):
         self.usain = run.Runner('Усэйн', 10)
@@ -15,24 +16,32 @@ class TournamentTest(unittest.TestCase):
     def test1(self):
         race = run.Tournament(90, self.usain, self.nik)
         result = race.start()
-        self.all_results.update(result)
+        self.all_results.update({place: str(runner) for place, runner in result.items()})
         self.assertTrue(max(self.all_results.keys()), 'Ник')
 
     def test2(self):
         race = run.Tournament(90, self.andrey, self.nik)
         result = race.start()
-        self.all_results.update(result)
+        self.all_results.update({place: str(runner) for place, runner in result.items()})
         self.assertTrue(max(self.all_results.keys()), 'Ник')
 
     def test3(self):
         race = run.Tournament(90, self.usain, self.andrey, self.nik)
         result = race.start()
-        self.all_results.update(result)
+        self.all_results.update({place: str(runner) for place, runner in result.items()})
         self.assertTrue(max(self.all_results.keys()), 'Ник')
 
-    def tearDownClass(self):
-        for race in self.all_results:
-            print(self.all_results.__getitem__(race))
+    def test4(self):
+        race = run.Tournament(90, self.nik, self.andrey, self.usain)
+        result = race.start()
+        self.all_results.update({place: str(runner) for place, runner in result.items()})
+        self.assertTrue(max(self.all_results.keys()), 'Ник')
+
+    @classmethod
+    def tearDownClass(cls):
+        print(cls.all_results.values())
+        for race in cls.all_results:
+            print(cls.all_results.__getitem__(race))
 
 
 if __name__ == '__main__':
