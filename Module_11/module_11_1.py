@@ -7,7 +7,6 @@ def file_import(filename, encoding='cp1251'):
     df = pd.read_csv(filename, encoding=encoding)
     return df
 
-
 def arr_(df):
     arr = np.array([df['Москва'], df['Санкт-Петербург']])
     print(arr)
