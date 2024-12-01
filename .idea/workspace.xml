@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Module_12/suite_12_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_12/tests_12_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_12/tests_12_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +60,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests in tests_12_1.py.executor": "Run",
     "Python tests.Python tests in tests_12_2.py.executor": "Run",
+    "Python tests.Python tests in tests_12_4.py.executor": "Run",
     "Python.03_file_seek.executor": "Run",
     "Python.05_lib_usage.executor": "Run",
     "Python.07_practice.executor": "Run",
@@ -164,22 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727865325251</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1727865325251</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727868117692</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1727868117692</updated>
     </task>
     <task id="LOCAL-00025" summary="Changes">
       <option name="closed" value="true" />
@@ -557,7 +541,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733043023249</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733060684793</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1733060684793</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733060828321</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1733060828321</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -573,11 +573,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python311/Lib/site-packages/arcade/sprite/sprite.py</url>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Module_12/tests_12_2.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
