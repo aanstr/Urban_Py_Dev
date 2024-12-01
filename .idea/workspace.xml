@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/Module_12/suite_12_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_12/tests_12_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_12/runner_and_tournament.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_12/runner_and_tournament.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -59,7 +60,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests in tests_12_1.py.executor": "Run",
-    "Python tests.Python tests in tests_12_2.py.executor": "Debug",
+    "Python tests.Python tests in tests_12_2.py.executor": "Run",
     "Python.03_file_seek.executor": "Run",
     "Python.05_lib_usage.executor": "Run",
     "Python.07_practice.executor": "Run",
@@ -122,6 +123,7 @@
     "Python.runner.executor": "Run",
     "Python.runner_and_tournament.executor": "Run",
     "Python.sprite.executor": "Run",
+    "Python.suite_12_3.executor": "Run",
     "Python.true_math.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
@@ -133,11 +135,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_12" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_10" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_9" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sys_adm\PycharmProjects" />
@@ -162,22 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727859100887</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1727859100887</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727864999953</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1727864999953</updated>
     </task>
     <task id="LOCAL-00023" summary="Changes">
       <option name="closed" value="true" />
@@ -555,7 +541,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733041725906</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733043012108</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1733043012108</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733043023249</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1733043023249</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -576,21 +578,6 @@
           <url>file://$PROJECT_DIR$/Module_12/tests_12_2.py</url>
           <line>16</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Module_12/tests_12_2.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Module_12/tests_12_2.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Module_12/tests_12_2.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
