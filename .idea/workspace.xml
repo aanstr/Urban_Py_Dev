@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Module_12/tests_12_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Urban_Py_Dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Urban_Py_Dev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +102,8 @@
     "Python.module_11_1.executor": "Run",
     "Python.module_11_3.executor": "Run",
     "Python.module_12_1.executor": "Run",
+    "Python.module_13_1.executor": "Run",
+    "Python.module_13_2.executor": "Run",
     "Python.module_1_1.executor": "Run",
     "Python.module_3_hard.executor": "Run",
     "Python.module_4_1.executor": "Run",
@@ -129,24 +133,24 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Module_12",
+    "last_opened_file_path": "C:/Users/sys_adm/PycharmProjects/Urban_Py_Dev/Keys",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Keys" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_12" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_10" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_9" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Keys" />
+      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_1" />
       <recent name="C:\Users\sys_adm\PycharmProjects" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Practice" />
       <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Module_11" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\Urban_Py_Dev\Code_base" />
-      <recent name="C:\Users\sys_adm\PycharmProjects\" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -164,30 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727868267316</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1727868267316</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1727872291615</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1727872291615</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1728232165887</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1728232165887</updated>
     </task>
     <task id="LOCAL-00028" summary="Changes">
       <option name="closed" value="true" />
@@ -557,7 +537,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733060828321</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733065943910</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1733065943910</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733661088219</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1733661088219</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1733668184161</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1733668184161</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
