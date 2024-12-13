@@ -6,12 +6,10 @@ from Keys.telegtam_tokens import Urban_module13
 
 bot = Bot(token=Urban_module13)
 dp = Dispatcher(bot, storage=MemoryStorage())
-kb = ReplyKeyboardMarkup() #.resize_keyboard
+kb = ReplyKeyboardMarkup(resize_keyboard=True)
 button = KeyboardButton(text='Рассчитать')
 button1 = KeyboardButton(text='Информация')
-kb.add(button)
-kb.row(button1)
-# kb.resize_keyboard
+kb.add(button).add(button1)
 
 
 class UserState(StatesGroup):
