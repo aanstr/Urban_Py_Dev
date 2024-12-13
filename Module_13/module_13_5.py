@@ -9,7 +9,7 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
 button = KeyboardButton(text='Рассчитать')
 button1 = KeyboardButton(text='Информация')
-kb.add(button).add(button1)
+kb.add(button, button1)
 
 
 class UserState(StatesGroup):
