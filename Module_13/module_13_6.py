@@ -38,36 +38,42 @@ async def get_formulas(call):
 
 @dp.callback_query_handler(text='calories')
 async def set_age(call):
-    await call.answer('Введите свой возраст:')
+    await call.message.answer('Введите свой возраст:')
     await call.answer()
     await UserState.age.set()
 
 
 @dp.message_handler(state=UserState.age)
 async def set_growth(message, state):
-    await state.update_data(age=message.text)
-    await message.answer('Введите свой рост:')
-    await UserState.growth.set()
+    try:
+        await state.update_data(age=int(message.text))
+        await UserState.growth.set()
+        await message.answer('Введите свой рост:')
+    except ValueError:
+        await message.answer('Введен неправильный тип данных')
+
 
 
 @dp.message_handler(state=UserState.growth)
 async def set_weight(message, state):
-    await state.update_data(growth=message.text)
-    await message.answer('Введите свой вес:')
-    await UserState.weight.set()
+    try:
+        await state.update_data(growth=int(message.text))
+        await UserState.weight.set()
+        await message.answer('Введите свой вес:')
+    except ValueError:
+        await message.answer('Введен неправильный тип данных')
+
 
 
 @dp.message_handler(state=UserState.weight)
 async def send_calories(message, state):
     try:
-        await state.update_data(weight=message.text)
+        await state.update_data(weight=int(message.text))
         data = await state.get_data()
         result = 10 * float(data['weight']) + 6.25 * float(data['growth']) - 5 * float(data['age']) + 5
         await message.answer(f'Ваша суточная норма: {result} ккал')
-    except:
+    except ValueError:
         await message.answer('Ошибка данных, пробуем снова')
-        await start(message)
-
     finally:
         await state.finish()
 
@@ -87,5 +93,5 @@ async def all_messages(message):
     await message.answer('Введите команду /start, чтобы начать общение.')
 
 
-if __name__ == '__main__':
+if name == 'main':
     executor.start_polling(dp, skip_updates=True)
