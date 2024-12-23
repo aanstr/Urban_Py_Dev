@@ -3,9 +3,12 @@ from aiogram import Bot, Dispatcher, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup
-from Keys.telegtam_tokens import Urban_module13
+import os
+from dotenv import load_dotenv
 
-bot = Bot(token=Urban_module13)
+load_dotenv()
+api = os.getenv('BOT1_TOKEN')
+bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
@@ -53,7 +56,6 @@ async def set_growth(message, state):
         await message.answer('Введен неправильный тип данных')
 
 
-
 @dp.message_handler(state=UserState.growth)
 async def set_weight(message, state):
     try:
@@ -62,7 +64,6 @@ async def set_weight(message, state):
         await message.answer('Введите свой вес:')
     except ValueError:
         await message.answer('Введен неправильный тип данных')
-
 
 
 @dp.message_handler(state=UserState.weight)
