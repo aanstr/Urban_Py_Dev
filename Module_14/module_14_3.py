@@ -14,12 +14,21 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
 button = KeyboardButton(text='Рассчитать')
 button1 = KeyboardButton(text='Информация')
+button2 = InlineKeyboardButton(text='Купить', callback_data='buy')
 kb.add(button, button1)
+kb.add(button2)
 
 ikb = InlineKeyboardMarkup(resize_keyboard=True)
-ibatton = InlineKeyboardButton(text='Рассчитать норму калорий', callback_data='calories')
-ibatton1 = InlineKeyboardButton(text='Формулы расчёта', callback_data='formulas')
-ikb.add(ibatton, ibatton1)
+button = InlineKeyboardButton(text='Рассчитать норму калорий', callback_data='calories')
+button1 = InlineKeyboardButton(text='Формулы расчёта', callback_data='formulas')
+ikb.add(button, button1)
+
+ikb2 = InlineKeyboardMarkup(resize_keyboard=True)
+button = InlineKeyboardButton(text='Product1', callback_data='product_buying')
+button1 = InlineKeyboardButton(text='Product2', callback_data='product_buying')
+button2 = InlineKeyboardButton(text='Product3', callback_data='product_buying')
+button3 = InlineKeyboardButton(text='Product4', callback_data='product_buying')
+ikb2.add(button, button1, button2, button3)
 
 
 class UserState(StatesGroup):
@@ -87,6 +96,21 @@ async def start(message):
 @dp.message_handler(text='Информация')
 async def info(message):
     await message.answer('Этот бот считает суточную норму каллорий по введенным параметрам', reply_markup=kb)
+
+
+@dp.message_handler(text='Купить')
+async def get_buying_list(message):
+    for i in range(1, 5):
+        await message.answer(f'Название: Product{i} | Описание: описание {i} | Цена: {i * 100}')
+        with open(f'{i}.jpg', 'rb') as img:
+            await message.answer_photo(img)
+    await message.answer('Выберите продукт для покупки: ', reply_markup=ikb2)
+
+
+@dp.callback_query_handler(text='product_buying')
+async def send_confirm_message(call):
+    await call.message.answer('Вы успешно приобрели продукт!')
+    await call.answer()
 
 
 @dp.message_handler()

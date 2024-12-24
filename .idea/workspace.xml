@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/Module_14/module_14_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_14/module_14_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_14/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_14/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_14/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_14/module_14_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_14/module_14_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +108,7 @@
     "Python.module_13_6.executor": "Run",
     "Python.module_14_1.executor": "Run",
     "Python.module_14_2.executor": "Run",
+    "Python.module_14_3.executor": "Run",
     "Python.module_1_1.executor": "Run",
     "Python.module_3_hard.executor": "Run",
     "Python.module_4_1.executor": "Run",
@@ -168,14 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1728547095572</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1728547095573</updated>
     </task>
     <task id="LOCAL-00036" summary="Changes">
       <option name="closed" value="true" />
@@ -561,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735048833217</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1735049763938</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1735049763938</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
