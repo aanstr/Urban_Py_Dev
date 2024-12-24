@@ -153,7 +153,7 @@ async def set_age(message, state):
     reg = await state.get_data()
     add_user(**reg)
     await state.finish()
-    await message.answer('', eply_markup=kb)
+    await message.answer('', reply_markup=kb)
 
 
 @dp.message_handler()
