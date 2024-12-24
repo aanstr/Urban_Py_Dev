@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes" />
+    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_14/crud_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_14/crud_functions.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,90 +55,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in tests_12_1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tests_12_2.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tests_12_4.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_file_seek.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_lib_usage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Calc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Calc2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Calc3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Explorer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NeuroCode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NeuroCode2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neuro_10_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neuro_7_3(2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neuro_7_3(3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neuro_7_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Neuro_9_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OS_files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PetyaDefence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pong.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RegForm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.String_format.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Zubkov_5_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fake_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module5hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module6hard-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module6hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_1(1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_11_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_11_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_12_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_13_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_13_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_13_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_14_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_14_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_14_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runner_and_tournament.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sprite.executor&quot;: &quot;Run&quot;,
-    &quot;Python.suite_12_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.true_math.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Data/PycharmProjects/Urban_Py_Dev/Module_14&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests in tests_12_1.py.executor": "Run",
+    "Python tests.Python tests in tests_12_2.py.executor": "Run",
+    "Python tests.Python tests in tests_12_4.py.executor": "Run",
+    "Python.03_file_seek.executor": "Run",
+    "Python.05_lib_usage.executor": "Run",
+    "Python.07_practice.executor": "Run",
+    "Python.08_practice.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.Calc.executor": "Run",
+    "Python.Calc2.executor": "Run",
+    "Python.Calc3.executor": "Run",
+    "Python.Explorer.executor": "Run",
+    "Python.Module_5.executor": "Run",
+    "Python.NeuroCode.executor": "Run",
+    "Python.NeuroCode2.executor": "Run",
+    "Python.Neuro_10_4.executor": "Run",
+    "Python.Neuro_7_3(2).executor": "Run",
+    "Python.Neuro_7_3(3).executor": "Run",
+    "Python.Neuro_7_3.executor": "Run",
+    "Python.Neuro_9_7.executor": "Run",
+    "Python.OS_files.executor": "Run",
+    "Python.PetyaDefence.executor": "Run",
+    "Python.Pong.executor": "Run",
+    "Python.RegForm.executor": "Run",
+    "Python.String_format.executor": "Run",
+    "Python.Zubkov_5_hard.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
+    "Python.crud_functions.executor": "Run",
+    "Python.fake_math.executor": "Run",
+    "Python.module1.executor": "Run",
+    "Python.module2.executor": "Run",
+    "Python.module5hard.executor": "Run",
+    "Python.module6hard-2.executor": "Run",
+    "Python.module6hard.executor": "Run",
+    "Python.module_10_1(1).executor": "Run",
+    "Python.module_10_1.executor": "Run",
+    "Python.module_10_2.executor": "Run",
+    "Python.module_10_3.executor": "Run",
+    "Python.module_10_4.executor": "Run",
+    "Python.module_10_5.executor": "Run",
+    "Python.module_11_1.executor": "Run",
+    "Python.module_11_3.executor": "Run",
+    "Python.module_12_1.executor": "Run",
+    "Python.module_13_1.executor": "Run",
+    "Python.module_13_2.executor": "Run",
+    "Python.module_13_6.executor": "Run",
+    "Python.module_14_1.executor": "Run",
+    "Python.module_14_2.executor": "Run",
+    "Python.module_14_3.executor": "Run",
+    "Python.module_1_1.executor": "Run",
+    "Python.module_3_hard.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_4_2.executor": "Run",
+    "Python.module_5_1.executor": "Run",
+    "Python.module_5_2.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_6_1.executor": "Run",
+    "Python.module_6_2.executor": "Run",
+    "Python.module_6_3.executor": "Run",
+    "Python.module_7_1.executor": "Run",
+    "Python.module_7_2.executor": "Run",
+    "Python.module_7_3.executor": "Run",
+    "Python.module_7_4.executor": "Run",
+    "Python.module_7_5.executor": "Run",
+    "Python.module_9_2.executor": "Run",
+    "Python.module_9_5.executor": "Run",
+    "Python.module_9_6.executor": "Run",
+    "Python.module_9_7.executor": "Run",
+    "Python.runner.executor": "Run",
+    "Python.runner_and_tournament.executor": "Run",
+    "Python.sprite.executor": "Run",
+    "Python.suite_12_3.executor": "Run",
+    "Python.true_math.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Data/PycharmProjects/Urban_Py_Dev/Module_14",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Module_14" />
@@ -167,14 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1728549071031</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1728549071031</updated>
     </task>
     <task id="LOCAL-00038" summary="Changes">
       <option name="closed" value="true" />
@@ -560,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735053679587</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1735053934192</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1735053934192</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
