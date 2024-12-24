@@ -26,4 +26,3 @@ def get_all_products():
     result = cursor.fetchall()
     connection.close()
     return result
-
