@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect('not_telegram.db')
+connection = sqlite3.connect('not_telegram2.db')
 cursor = connection.cursor()
 
 cursor.execute('''
@@ -13,9 +13,9 @@ balance INTEGER NOT NULL
 )
 ''')
 
-'''for i in range(1, 11):
+for i in range(1, 11):
     cursor.execute('INSERT INTO Users (username, email, age, balance) VALUES (?, ?, ?, ?)',
-                   (f'User{i}', f'example{i}@gmail.com', i * 10, 1000))'''
+                   (f'User{i}', f'example{i}@gmail.com', i * 10, 1000))
 for i in range(1, 11, 2):
     cursor.execute('UPDATE Users SET balance = ? WHERE id = ?', (500, i))
 for i in range(1, 11, 3):
