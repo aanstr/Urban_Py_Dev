@@ -26,6 +26,3 @@ def get_all_products():
     connection.close()
     return cursor.fetchall()
 
-
-if __name__ == "__main__":
-    initiate_db()

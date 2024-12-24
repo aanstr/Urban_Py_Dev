@@ -4,7 +4,10 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup
 import os
+from crud_functions import *
 from dotenv import load_dotenv
+
+get_all_products()
 
 load_dotenv()
 api = os.getenv('BOT1_TOKEN')
