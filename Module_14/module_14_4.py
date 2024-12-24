@@ -7,7 +7,7 @@ import os
 from crud_functions import *
 from dotenv import load_dotenv
 
-get_all_products()
+Products = get_all_products()
 
 load_dotenv()
 api = os.getenv('BOT1_TOKEN')
@@ -103,9 +103,9 @@ async def info(message):
 
 @dp.message_handler(text='Купить')
 async def get_buying_list(message):
-    for i in range(1, 5):
-        await message.answer(f'Название: Product{i} | Описание: описание {i} | Цена: {i * 100}')
-        with open(f'{i}.jpg', 'rb') as img:
+    for product in Products:
+        await message.answer(f'Название: {product[1]} | Описание: {product[2]} | Цена: {product[3]}')
+        with open(f'{product[0]}.jpg', 'rb') as img:
             await message.answer_photo(img)
     await message.answer('Выберите продукт для покупки: ', reply_markup=ikb2)
 

@@ -23,6 +23,7 @@ def get_all_products():
     connection = sqlite3.connect('telegram.db')
     cursor = connection.cursor()
     cursor.execute("SELECT * FROM Products ")
+    result = cursor.fetchall()
     connection.close()
-    return cursor.fetchall()
+    return result
 
