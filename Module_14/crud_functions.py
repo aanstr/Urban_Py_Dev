@@ -9,7 +9,7 @@ def initiate_db():
     id INTEGER PRIMARY KEY,
     title TEXT NOT NULL,
     description TEXT,
-    price TEXT NOT NULL
+    price INTEGER NOT NULL
     )
     ''')
     for i in range(1, 5):
