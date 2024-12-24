@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes" />
+    <list default="true" id="7459fe54-fcd6-42ae-9ae2-806cce255849" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_14/not_telegram.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_14/not_telegram2.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_14/telegram.db" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +126,7 @@
     &quot;Python.module_14_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_14_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_14_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_14_5.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_1_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_3_hard.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
@@ -185,22 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725450318141</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Changes">
-      <option name="closed" value="true" />
-      <created>1728586120915</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1728586120915</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Module_7/Mother Goose - Monday’s Child.txt&#10;#&#9;Module_7/Rudyard Kipling - If.txt&#10;#&#9;Module_7/Walt Whitman - O Captain! My Captain!.txt&#10;#&#9;Module_7/test_file.txt">
-      <option name="closed" value="true" />
-      <created>1728586178122</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1728586178122</updated>
     </task>
     <task id="LOCAL-00047" summary="Changes">
       <option name="closed" value="true" />
@@ -578,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735058482595</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1735066523222</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1735066523222</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1735066676283</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1735066676283</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
