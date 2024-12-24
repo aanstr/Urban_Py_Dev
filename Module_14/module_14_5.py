@@ -15,9 +15,10 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
 button = KeyboardButton(text='Рассчитать')
 button1 = KeyboardButton(text='Информация')
-button2 = InlineKeyboardButton(text='Купить', callback_data='buy')
+button2 = InlineKeyboardButton(text='Купить')
+button3 = InlineKeyboardButton(text='Регистрация')
 kb.add(button, button1)
-kb.add(button2)
+kb.add(button2, button3)
 
 ikb = InlineKeyboardMarkup(resize_keyboard=True)
 button = InlineKeyboardButton(text='Рассчитать норму калорий', callback_data='calories')
@@ -36,6 +37,13 @@ class UserState(StatesGroup):
     growth = State()
     age = State()
     weight = State()
+
+
+class RegistrationState(StatesGroup):
+    username = State()
+    email = State()
+    age = State()
+    balance = 1000
 
 
 @dp.message_handler(text='Рассчитать')
@@ -113,6 +121,39 @@ async def get_buying_list(message):
 async def send_confirm_message(call):
     await call.message.answer('Вы успешно приобрели продукт!')
     await call.answer()
+
+
+@dp.message_handler(text='Регистрация')
+async def sign_up(message):
+    await message.answer('Введите имя пользователя (только латинский алфавит):')
+    await RegistrationState.username.set()
+
+
+@dp.message_handler(state=RegistrationState.username)
+async def set_username(message, state):
+    if not is_included(message.text):
+        await state.update_data(username=message.text)
+        await message.answer('Введите свой email:')
+        await RegistrationState.email.set()
+    else:
+        await message.answer('Пользователь существует, введите другое имя')
+        await RegistrationState.username.set()
+
+
+@dp.message_handler(state=RegistrationState.email)
+async def set_email(message, state):
+    await state.update_data(email=message.text)
+    await message.answer('Введите свой возраст:')
+    await RegistrationState.age.set()
+
+
+@dp.message_handler(state=RegistrationState.age)
+async def set_age(message, state):
+    await state.update_data(age=message.text)
+    reg = await state.get_data()
+    add_user(**reg)
+    await state.finish()
+    await message.answer('', eply_markup=kb)
 
 
 @dp.message_handler()
