@@ -54,3 +54,7 @@ def get_all_products():
     result = cursor.fetchall()
     connection.close()
     return result
+
+
+if __name__ == '__main__':
+    initiate_db()
