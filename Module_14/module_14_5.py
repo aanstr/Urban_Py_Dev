@@ -90,7 +90,7 @@ async def send_calories(message, state):
         await state.update_data(weight=int(message.text))
         data = await state.get_data()
         result = 10 * float(data['weight']) + 6.25 * float(data['growth']) - 5 * float(data['age']) + 5
-        await message.answer(f'Ваша суточная норма: {result} ккал')
+        await message.answer(f'Ваша суточная норма: {result} ккал', reply_markup=kb)
     except ValueError:
         await message.answer('Ошибка данных, пробуем снова')
     finally:
@@ -153,7 +153,7 @@ async def set_age(message, state):
     reg = await state.get_data()
     add_user(**reg)
     await state.finish()
-    await message.answer('', reply_markup=kb)
+    await message.answer('Успешная регистрация', reply_markup=kb)
 
 
 @dp.message_handler()
